@@ -3,6 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
+  'another great often primary warm panda island wolf extra raccoon nut become',
+  'https://goerli.infura.io/v3/acbf3c26558c4df49b8f58b746522316'
 );
 const web3 = new Web3(provider);
 
